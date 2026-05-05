@@ -1,0 +1,1 @@
+Extract numerical features that define the author's style from FB2 texts and present them in a tabular format
