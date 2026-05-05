@@ -22,14 +22,27 @@ The projects explore real-world data scenarios, combining statistical methods wi
 ---
 
 ## Repository Structure
+```txt
 ML/
 ├── author_style/
+│   ├── data/
+│   ├── features/
+│   └── model.py
 ├── som_text_analysis/
+│   ├── som.py
+│   └── utils.py
 ├── commenters_clustering/
+│   ├── clustering.ipynb
+│   └── troll_score.py
 ├── keywords_analysis/
+│   └── tfidf_analysis.py
 ├── grain_classifier/
+│   ├── train.py
+│   └── resnet_model.py
 └── phishing_detection/
-
+    ├── data/
+    └── classifier.py
+```
 
 ---
 
@@ -120,7 +133,7 @@ format.json
 
 ---
 
-### 📧 Phishing Email Detection
+### Phishing Email Detection
 
 Binary classification:
 
@@ -160,6 +173,6 @@ Binary classification:
 ## Quick Start
 
 ```bash
-git clone https://github.com/your-username/ml-projects.git
+git clone https://github.com/DARIMAYA/ML.git
 cd ml-projects
 pip install -r requirements.txt
